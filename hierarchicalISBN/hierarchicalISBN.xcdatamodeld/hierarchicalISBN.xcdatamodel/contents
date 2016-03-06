@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="14F1605" minimumToolsVersion="Automatic">
+    <entity name="Book">
+        <attribute name="authors" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isbn" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <fetchRequest name="allBooks" entity="Book"/>
+    <elements>
+        <element name="Book" positionX="261" positionY="189" width="128" height="120"/>
+    </elements>
+</model>
